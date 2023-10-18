@@ -13,9 +13,10 @@ import javax.swing.JOptionPane;
 public class Pizza extends javax.swing.JFrame {
 
     /**
-     * Creates new form pizza
+    
      */
     public Pizza() {
+        JOptionPane.showMessageDialog(null, "Próbaverzió");
         initComponents();
     }
 
@@ -54,7 +55,7 @@ public class Pizza extends javax.swing.JFrame {
         setTitle("Pizza rendelés");
         setResizable(false);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("/home/logan/NetBeansProjects/pizza/kepek/pepperoni-pizza-in-box.jpg")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\KépiróBalázs(SZOFT_2\\Documents\\pizzarendeles\\kepek\\pepperoni-pizza-in-box.jpg")); // NOI18N
 
         javax.swing.GroupLayout kepLayout = new javax.swing.GroupLayout(kep);
         kep.setLayout(kepLayout);
